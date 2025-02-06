@@ -4,11 +4,6 @@ body{
     font-family: "Satisfy", serif;
     color: white;
 }
-header{
-    height: 650px;
-    background-color: #f4c07a;
-    font-size: 30pt;
-}
 #headerFunc{
     background-color: #f1ab4d;
     font-size: 25pt;
@@ -52,16 +47,6 @@ header .menu li:hover{
     height: 320px;
     padding-top: 30px;
 }
-#buttonStart{
-    width: 300px;
-    height: 80px;
-    margin-left: 200px;
-    cursor: pointer;
-}
-#buttonStart:hover{
-    width: 350px;
-    height: 90px;
-}
 
 footer{
     display: flex;
@@ -85,7 +70,7 @@ main h1{
     display: flex;
     justify-content: center;
 }
-.pratos{
+#contato{
     width: 700px;
     height: 450px;
     background-color: #fbead3;
@@ -93,15 +78,11 @@ main h1{
     border-radius: 10%;
     padding: 20px;
 }
-.pratos img{
-    width: 400px;
-    height: 300px;
-}
-.pratos h1{
+#contato h1{
     margin: 2%;
-    font-size: 25pt;
+    font-size: 22pt;
+    justify-content: start;
 }
-
 a{
     cursor: pointer;
     text-decoration: none;
@@ -109,6 +90,10 @@ a{
 }
 ins{
     cursor: pointer;
+}
+#contato-mapa{
+    display: flex;
+    align-items: center;
 }
 #midias img{
     width: 50px;

@@ -4,11 +4,6 @@ body{
     font-family: "Satisfy", serif;
     color: white;
 }
-header{
-    height: 650px;
-    background-color: #f4c07a;
-    font-size: 30pt;
-}
 #headerFunc{
     background-color: #f1ab4d;
     font-size: 25pt;
@@ -52,14 +47,12 @@ header .menu li:hover{
     height: 320px;
     padding-top: 30px;
 }
-#buttonStart{
-    width: 300px;
-    height: 80px;
-    margin-left: 200px;
-    cursor: pointer;
-}
-#buttonStart:hover{
+#buttonReserva{
     width: 350px;
+    height: 80px;   
+}
+#buttonReserva:hover{
+    width: 400px;
     height: 90px;
 }
 
@@ -79,35 +72,50 @@ footer .menu li{
 
 main{
     color: black;
+    display: flex;
+    justify-content: center;
 }
 main h1{
     font-size: 35pt;
     display: flex;
     justify-content: center;
 }
-.pratos{
-    width: 700px;
-    height: 450px;
+#reserva{
+    width: 900px;
+    height: 600px;
     background-color: #fbead3;
     margin: 30px;
     border-radius: 10%;
     padding: 20px;
+    text-align: center;
 }
-.pratos img{
-    width: 400px;
-    height: 300px;
-}
-.pratos h1{
+#reserva h1{
     margin: 2%;
-    font-size: 25pt;
+    font-size: 40pt;
 }
-
 a{
     cursor: pointer;
     text-decoration: none;
     color: white;
 }
 ins{
+    cursor: pointer;
+}
+.labels{
+    text-align: left;
+    padding-bottom: 40px;
+    padding: 20px;
+}
+.labels label{
+    font-size: 28pt;
+}
+.labels input{
+    width: 600px;
+    height: 40px;   
+}
+button{
+    background-color: transparent;
+    border-color: transparent;
     cursor: pointer;
 }
 #midias img{

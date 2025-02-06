@@ -30,6 +30,11 @@ body{
 header .menu li{
     font-size: 32pt;
 }
+header .menu li:hover{
+    font-size: 40pt;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 #msg{
     padding: 50px;
     padding-top: 20px;
@@ -41,11 +46,6 @@ header .menu li{
     width: 500px;
     height: 320px;
     padding-top: 30px;
-}
-#buttonStart{
-    width: 300px;
-    height: 80px;
-    margin-left: 200px;
 }
 
 footer{
@@ -64,7 +64,6 @@ footer .menu li{
 
 main{
     color: black;
-    justify-content: center;
 }
 main h1{
     font-size: 35pt;
@@ -77,7 +76,6 @@ main h1{
     background-color: #fbead3;
     margin: 30px;
     border-radius: 10%;
-    align-items: center;
     padding: 20px;
 }
 .pratos img{
@@ -90,4 +88,18 @@ main h1{
 }
 .pratos li{
     font-size: 24pt;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+ins{
+    cursor: pointer;
+}
+#midias img{
+    width: 50px;
+    height: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
 }
