@@ -6,7 +6,7 @@
     <title>TopDelicias</title>
     <link rel="stylesheet" href="css/styleReserva.css " />
     <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon" />
-
+ <!--Importa fontes Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,6 +16,7 @@
   </head>
   <body>
     <header>
+       <!--Menu-->
       <div id="headerFunc">
         <a href="index.html"><img src="img/logo.png" alt="" id="logo" /></a>
         <h1>Contato</h1>
@@ -28,23 +29,28 @@
       </div>
     </header>
     <main>
+      <!--Formulario de Reservas-->
       <form id="reserva" action="" method="">
         <h1>Faça já sua Reserva</h1>
         <div class="labels">
+          <!--Entrada do Nome-->
           <label for="nome">Nome Completo:</label>
-          <input type="text" id="nome" name="nome" required>
+          <input type="text" id="nome" name="nome" required placeholder="Digite seu Nome Completo">
         </div>
 
+        <!--Entrada do Preferências-->
         <div class="labels">
           <label for="preferencias">Preferências:</label>
-          <input type="text" id="preferencias" name="preferencias" required>
+          <input type="text" id="preferencias" name="preferencias" required placeholder="Digite suas Preferências">
         </div>
 
+        <!--Entrada do Número de Pessoas-->
         <div class="labels">
           <label for="numPessoas">Num. Pessoas:</label>
-          <input type="number" id="numPessoas" name="numPessoas" required>
+          <input type="number" id="numPessoas" name="numPessoas" required placeholder="Digite o Número de Acompanhantes" min="1" max="7">
         </div>
 
+        <!--Entrada do Dia e Hora da Reserva-->
         <div class="labels">
           <label for="diaHora">Dia/Hora:</label>
           <input type="datetime-local" id="nome" name="nome" required>
@@ -55,6 +61,7 @@
     </main>
     <footer>
       <h1>Copyright © 2025 Todos os direitos reservados</h1>
+      <!--Links de redes sociais-->
       <div id="midias">
         <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png" alt=""></a>
         <a href="https://www.whatsapp.com/?lang=pt_BR" target="_blank"><img src="img/whatsapp.png" alt=""></a>

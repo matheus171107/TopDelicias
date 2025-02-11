@@ -35,10 +35,10 @@ header{
 header .menu li{
     font-size: 32pt;
 }
-header .menu li:hover{
+header .menu li:hover{ /* Quando mouse entrar no li fara o que está entre {}*/
     font-size: 40pt;
     text-decoration: underline;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /*Adiciona sobre no texto*/
 }
 #msg{
     padding: 50px;
@@ -104,7 +104,7 @@ main h1{
 
 a{
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: none;  /*Retira o sublinhado padrão da tag a*/
     color: white;
 }
 ins{
